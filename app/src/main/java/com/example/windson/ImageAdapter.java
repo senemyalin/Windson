@@ -2,7 +2,6 @@ package com.example.windson;
 
 
 import android.content.Context;
-//import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,7 +37,19 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
     }
     @Override
     public int getItemCount() {
-        return mUploads.size();
+
+        int a ;
+
+        if(mUploads != null && !mUploads.isEmpty()) {
+
+            a = mUploads.size();
+        }
+        else {
+
+            a = 0;
+
+        }
+        return a;
     }
     public class ImageViewHolder extends RecyclerView.ViewHolder {
         public TextView textViewName;

@@ -1,6 +1,5 @@
 package com.example.windson;
 
-
 public class videomember {
     private String name;
     private String Videourl;

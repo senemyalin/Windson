@@ -1,6 +1,5 @@
 package com.example.windson;
 
-
 public class uploadinfo {
 
     public String imageName;

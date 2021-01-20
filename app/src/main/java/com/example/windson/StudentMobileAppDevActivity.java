@@ -1,21 +1,13 @@
 package com.example.windson;
 
+
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ExpandableListAdapter;
-import android.widget.ExpandableListView;
-import android.widget.ListAdapter;
-import android.widget.MediaController;
-import android.widget.TextView;
-import android.widget.Toast;
-import android.widget.VideoView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -41,7 +33,6 @@ public class StudentMobileAppDevActivity extends AppCompatActivity {
         btn_lessons.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //videolu versiyonu olcak unutma!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 startActivity( new Intent(StudentMobileAppDevActivity.this , VideoActivityLessons.class));
             }
         });

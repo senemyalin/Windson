@@ -1,12 +1,9 @@
 package com.example.windson;
 
-
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
-import android.widget.ExpandableListAdapter;
-import android.widget.ListAdapter;
 import android.widget.TextView;
 
 public class tprocesstudentlist extends BaseExpandableListAdapter {
@@ -77,5 +74,4 @@ public class tprocesstudentlist extends BaseExpandableListAdapter {
         return true;
     }
 }
-
 
